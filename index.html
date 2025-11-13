@@ -33,7 +33,58 @@
     />
   </head>
   <body class="font-['Hind_Madurai']">
-    <h1>hello world</h1>
+    <header>
+      <!-- Navbar Section -->
+      <nav
+        class="border-b border-gray-300 flex flex-col sm:flex-row items-center justify-between px-4 sm:px-[60px] py-4 sm:py-6 gap-4 sm:gap-0"
+      >
+        <div id="nav-logo" class="flex gap-3 items-center">
+          <img class="h-[45px] w-[45px]" src="./assets/icons/logo.png" alt="" />
+          <img
+            class="h-[35px] sm:h-[45px] w-[120px] sm:w-[135px]"
+            src="./assets/icons/Emergency Service.png"
+            alt=""
+          />
+        </div>
+
+        <div
+          id="nav-btn"
+          class="flex flex-wrap justify-center gap-3 sm:gap-5 w-full sm:w-auto"
+        >
+          <button
+            class="bg-[#41FF6B1A] rounded-[50px] flex justify-center gap-2 sm:gap-3 items-center p-2 sm:p-3 w-[100px] sm:w-[120px] h-[45px] sm:h-[50px]"
+          >
+            <p class="font-black text-sm sm:text-base">
+              <span id="nav-heart-count">0</span>
+            </p>
+            <img
+              class="w-6 h-6 sm:w-7 sm:h-7"
+              src="./assets/icons/heart.png"
+              alt=""
+            />
+          </button>
+          <button
+            class="bg-[#41FF6B1A] rounded-[50px] flex justify-center gap-2 sm:gap-3 items-center p-2 sm:p-3 w-[100px] sm:w-[120px] h-[45px] sm:h-[50px]"
+          >
+            <p class="font-black text-sm sm:text-base">
+              <span id="nav-coin-count">100</span>
+            </p>
+
+            <img
+              class="w-6 h-6 sm:w-7 sm:h-7"
+              src="./assets/icons/coin.png"
+              alt=""
+            />
+          </button>
+          <button
+            class="bg-[#00A63E] text-[#FFFFFF] rounded-[50px] flex justify-center gap-2 sm:gap-3 items-center p-2 sm:p-3 w-[100px] sm:w-[120px] h-[45px] sm:h-[50px] font-semibold text-sm sm:text-base"
+          >
+            <p><span id="nav-copy-count">0</span></p>
+            <p>Copy</p>
+          </button>
+        </div>
+      </nav>
+    </header>
 
     <script src="./script.js"></script>
   </body>
